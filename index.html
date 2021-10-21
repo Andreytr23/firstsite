@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Atroshch</title>
+    <link rel="stylesheet" href="dop.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Добро пожаловать на мой сайт</h1>
+        <h3>Что вы тут увидите?</h3>
+        <nav>
+        <ul>
+            <li>
+                <a href="#me-project">Информация по моему проекту</a>
+            </li>
+            <li>
+                <a href="#stat">Статистика выполнения проекта</a>
+            </li>
+            <li>
+                <a href="#otz">Отзывы </a>
+            </li>
+        </ul>
+        </nav>
+    </div>
+    <main>
+        <h2>Немного обо мне:</h2>
+        <p>
+            Меня зовут Андрей, я ученик 2009 школы 10Д класса. Мне 16, занимаюсь единоборствами. Недавно начал изучать создание сайтов и вот один из первых. Что я хочу от своего сайта: удобность и полезность. Надеюсь вы оцените мои старания!
+        </p>
+        <h2>Немного моих достижений</h2>
+        <center>
+        <table border="2" class="table1" bgcolor="black">
+            <tr class="tr1">
+                <td>Вид</td>
+                <td>Место</td>
+                <td>Год</td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="http://kobu-do.ru">Кобудо. ЧЕ</a></td>
+                <td>1 место</td>
+                <td>2014</td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="http://www.rm.kirov.ru">Русский Медвежонок</a></td>
+                <td>8 место</td>
+                <td>2015</td>
+            </tr>
+        </table>
+        </center>
+        <h3>Если будут какие-то вопросы:</h3>
+        <p>abbasedtr8@gmail.com - моя почта</p>
+        <h2 id="me-project">Мой проект</h2>
+        <p> Я ещё не решил на какую тематику буду точно делать свой итоговый сайт, но есть идея на счёт того, что можно сделать сайт-навигацию по интернету. То есть, например, если нужен будет какой-то рецепт, то каким-то специфичным образом перенаправлять пользователя моего сайта на сайт с рецептами, и так далее. Но это пока не окончательный ответ на тему моего сайта на проект!</p>
+        <h2 id="stat">Статистика выполнения проекта</h2>
+        <center>
+        <table border="3" class="table2" bgcolor="black">
+            <tr class="tr2">
+                <td>Неделя</td>
+                <td>Прогресс</td>
+                <td>Затраченное время</td>
+            </tr>
+            <tr>
+                <td>1-я неделя</td>
+                <td>Базовый код</td>
+                <td>1 час</td>
+            </tr>
+            <tr>
+                <td>2-я неделя</td>
+                <td>Базовое оформление</td>
+                <td>2 часа</td>
+            </tr>
+        </table>
+        </center>
+        <h2 id="otz">Отзывы,оценка сайта</h2>
+        <center>
+        <form action="index.html">
+            <label for="name">Вы:</label>
+            <input type="text" id="name" placeholder="Ваше имя">
+            <label for="ocenka">Оценка</label>
+            <input type="number" id="ocenka">
+            <br>
+            <p>Немножечко поделитесь своими впечатлениями о сайте</p>
+            <label for="text">Недочёты сайта</label>
+            <textarea id="text" rows="5"></textarea>
+            <label for="text1">Любые тёплые слова автору</label>
+            <textarea id="text1" rows="5"></textarea>
+            <br>
+            <input type="submit" value="отправить">
+        </form>
+        </center>
+    </main>
+</body>
+</html>
